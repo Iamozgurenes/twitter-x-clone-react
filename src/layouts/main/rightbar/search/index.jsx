@@ -16,11 +16,11 @@ export default function Search() {
 			ref={ref}
 			className="min-h-[2rem] h-[3.313rem] mb-3 flex items-center sticky top-0 bg-[color:var(--background-primary)] z-10"
 		>
-			<label className="h-[2.688rem] rounded-full bg-[color:var(--background-third)] w-full relative group border border-transparent focus-within:bg-[color:var(--background-primary)] focus-within:border-[color:var(--color-primary)]">
+			<label className="h-[2.688rem] rounded-full bg-[#202327] w-full relative group border border-transparent focus-within:bg-black focus-within:border-[#1d9bf0]">
 				<div className="w-[3.5rem] h-full flex items-center justify-center absolute top-0 left-0 pointer-events-none">
 					<svg
 						viewBox="0 0 24 24"
-						className="h-[1.172rem] min-w-[2rem] text-[color:var(--color-base-secondary)] group-focus-within:text-[color:var(--color-primary)]"
+						className="h-[1.172rem] min-w-[2rem] text-gray-500 group-focus-within:text-[#1d9bf0]"
 					>
 						<path
 							fill="currentColor"
@@ -40,7 +40,7 @@ export default function Search() {
 					<button
 						type="button"
 						onClick={() => setQuery('')}
-						className="w-[22px] h-[22px] rounded-full bg-[color:var(--color-primary)] flex items-center justify-center text-black min-w-[22px] absolute top-1/2 -translate-y-1/2 right-3"
+						className="w-[22px] h-[22px] rounded-full bg-blue-900 flex items-center justify-center text-black min-w-[22px] absolute top-1/2 -translate-y-1/2 right-3"
 					>
 						<svg viewBox="0 0 15 15" width={10} height={10}>
 								<path
@@ -61,4 +61,4 @@ export default function Search() {
 			)}
 		</div>
 	)
-}
+} 
