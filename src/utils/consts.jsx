@@ -152,3 +152,22 @@ export const mainMenu = [
     } 
   },
 ]
+
+export const topics = [ 
+  {
+    title: 'Türkiye tarhindeki gündemdeki',
+    topic: {
+      type: 'tag',
+      value: 'dilanpolat'
+    }
+  },  
+  {
+    title: 'Türkiye tarhindeki gündemdeki',
+    topic: {
+      type: 'query',
+      value: 'StarLink'
+    },
+    postCount: 13663
+  }
+
+]

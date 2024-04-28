@@ -40,7 +40,7 @@ export default function Search() {
 					<button
 						type="button"
 						onClick={() => setQuery('')}
-						className="w-[22px] h-[22px] rounded-full bg-blue-900 flex items-center justify-center text-black min-w-[22px] absolute top-1/2 -translate-y-1/2 right-3"
+						className="w-[22px] h-[22px] rounded-full bg-[#1d9bf0] flex items-center justify-center text-black min-w-[22px] absolute top-1/2 -translate-y-1/2 right-3"
 					>
 						<svg viewBox="0 0 15 15" width={10} height={10}>
 								<path
@@ -53,7 +53,7 @@ export default function Search() {
 			</label>
 			{focus && (
 				<div
-					className="absolute w-[350px] top-full -left-px -translate-y-1 bg-[color:var(--background-primary)] shadow-box max-h-[calc(80vh-53px)] rounded-lg text-center min-h-[100px]">
+					className="absolute w-[350px] top-full -left-px -translate-y-1 bg-black shadow-box max-h-[calc(80vh-53px)] rounded-lg text-center min-h-[100px]">
 					<p className="p-3 pt-5 text-[color:var(--color-base-secondary)] leading-5">
 						Kişileri, listeleri veya anahtar kelimeleri aramayı dene
 					</p>
