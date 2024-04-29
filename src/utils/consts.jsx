@@ -158,9 +158,57 @@ export const topics = [
     title: 'Türkiye tarhindeki gündemdeki',
     topic: {
       type: 'tag',
-      value: 'dilanpolat'
+      value: 'SONDAKİKA'
     }
   },  
+  {
+    title: 'Türkiye tarhindeki gündemdeki',
+    topic: {
+      type: 'query',
+      value: 'Neşet Tura'
+    },
+    postCount: 1160
+  },
+  {
+    title: 'Türkiye tarhindeki gündemdeki',
+    topic: {
+      type: 'query',
+      value: 'Tiktok'
+    },
+    postCount: 790000
+  },
+  {
+    title: 'Türkiye tarhindeki gündemdeki',
+    topic: {
+      type: 'query',
+      value: 'Tolga Çevik'
+    },
+    postCount: 6865
+  },
+  {
+    title: 'Türkiye tarhindeki gündemdeki',
+    topic: {
+      type: 'query',
+      value: 'Liamk'
+    },
+    postCount: 21100
+  },
+  {
+    title: 'Türkiye tarhindeki gündemdeki',
+    topic: {
+      type: 'query',
+      value: 'Galatasaray'
+    },
+    postCount: 85437
+  },
+  {
+    title: 'Türkiye tarhindeki gündemdeki',
+    topic: {
+      type: 'query',
+      value: 'Yusuf Tekin'
+    },
+    postCount: 3457
+  },
   {
     title: 'Türkiye tarhindeki gündemdeki',
     topic: {
@@ -168,6 +216,6 @@ export const topics = [
       value: 'StarLink'
     },
     postCount: 13663
-  }
+  },
 
 ]

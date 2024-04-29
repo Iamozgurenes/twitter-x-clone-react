@@ -1,6 +1,6 @@
 import Premiumm from "~/components/button/premiumm";
 import Search from "./search";
-import Topics from "~/components/topics";
+import Topics from "./topics"
 
 export default function RightBar (){
 return (
