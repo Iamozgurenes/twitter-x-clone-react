@@ -18,7 +18,7 @@ export default function Topic({item}) {
 
             <Popover className="absolute top-1.5 right-2">
                 <Popover.Button
-                 className="outline-none  w-[34.75px] h-[34.75px] text-[#71767b] rounded-full  flex items-center justify-center hover:bg-[#1d9bf01a] hover:text-[#1d9bf0] transition-colors">
+                 className="outline-none  w-[34.75px] h-[34.75px] text-[#71767b] rounded-full  flex items-center justify-center hover:bg-[#1d9bf01a] hover:text-[#1d9bf0] transition-colors relative   ">
                 
             
             <svg viewBox="0 0 24 24" width={18.75}>

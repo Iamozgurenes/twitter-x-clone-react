@@ -1,6 +1,8 @@
 import Premiumm from "~/components/button/premiumm";
 import Search from "./search";
 import Topics from "./topics"
+import WhoFollow from "./who-follow";
+import Footer from "../footer";
 
 export default function RightBar (){
 return (
@@ -12,6 +14,11 @@ return (
        <Premiumm/>
 
        <Topics/>
+
+       <WhoFollow/>
+
+       <Footer/>
+
 </aside>
 
 
