@@ -1,4 +1,4 @@
-import Premiumm from "~/components/button/premiumm";
+import Premiumm from "./premiumm";
 import Search from "./search";
 import Topics from "./topics"
 import WhoFollow from "./who-follow";
