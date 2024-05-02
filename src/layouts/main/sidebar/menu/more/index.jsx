@@ -8,7 +8,7 @@ export default function More() {
         <Popover className="relative  ">
             <Popover.Button  className="py-1 block group outline-none">
 
-        <div className="px-4   py-3 rounded-full inline-flex  items-center gap-5 transition-colors group-hover:bg-[#eff3f41a]">
+        <div className="px-4   py-3 rounded-full inline-flex  items-center gap-5 transition-colors group-hover:bg-[color:var(--background-third)]">
                 <div className="w-[26.25px] h-[26.25px] relative">
         
                 <svg viewBox="0 0 24 24"  >
@@ -26,9 +26,9 @@ export default function More() {
 
             <Popover.Panel className="w-[318px] absolute bottom-0 left-0 bg-[color:var(--background-primary)] shadow-box rounded-xl overflow-hidden">
                 
-            <button  className="px-4 h-14 w-full transition-colors inline-flex items-center gap-5 hover:bg-[#eff3f41a]">
+            <button  className="px-4 h-14 w-full transition-colors inline-flex items-center gap-5 hover:bg-[color:var(--background-secondary)]">
 
-<div className="p-3 rounded-full inline-flex  items-center gap-5 transition-colors group-hover:bg-[#eff3f41a]">
+<div className="p-3 rounded-full inline-flex  items-center gap-5 transition-colors group-hover:bg-[color:var(--background-secondary)]">
         <div className="w-[26.25px] h-[26.25px] relative">
 
         <svg viewBox="0 0 24 24"  >
@@ -43,9 +43,9 @@ export default function More() {
 
     </button>
 
-    <button  className="p-3 h-14 w-full transition-colors inline-flex items-center gap-5 hover:bg-[#eff3f41a]">
+    <button  className="p-3 h-14 w-full transition-colors inline-flex items-center gap-5 hover:bg-[color:var(--background-secondary)]">
 
-<div className="p-3 rounded-full inline-flex  items-center gap-5 transition-colors group-hover:bg-[#eff3f41a]">
+<div className="p-3 rounded-full inline-flex  items-center gap-5 transition-colors group-hover:bg-[color:var(--background-secondary)]">
         <div className="w-[26.25px] h-[26.25px] relative">
 
         <svg viewBox="0 0 24 24"  >
@@ -60,12 +60,12 @@ export default function More() {
 
     </button>
     
-    <div className="h-px bg-[#2f3336] my-0.5 w-[89%] mx-auto"/>
+    <div className="h-px bg-[color:var(--background-secondary)] my-0.5 w-[89%] mx-auto"/>
     
     <Disclosure>
       {({open}) => (
         <>
-        <Disclosure.Button className="h-[52px] flex items-center px-4 font-bold justify-between w-full hover:bg-[#eff3f41a]">
+        <Disclosure.Button className="h-[52px] flex items-center px-4 font-bold justify-between w-full hover:bg-[color:var(--background-secondary)]">
         İçerik Üreticisi Stüdyosu 
 
         <svg  className={classNames("transition-all h-[1.172rem]" , {"rotate-180 text-[color:var(--color-primary)]": open})} viewBox="0 0 24 24">
@@ -74,7 +74,7 @@ export default function More() {
 
       </Disclosure.Button>
       <Disclosure.Panel >
-        <Link to="/" className="flex items-center px-3 gap-3 h-11 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors ">
+        <Link to="/" className="flex items-center px-3 gap-3 h-11 text-[15px] font-medium hover:bg-[color:var(--background-secondary)] transition-colors ">
         <svg viewBox="0 0 24 24" class="h-[1.172rem]"><path fill="currentColor" d="M8.75 21V3h2v18h-2zM18 21V8.5h2V21h-2zM4 21l.004-10h2L6 21H4zm9.248 0v-7h2v7h-2z"></path></svg>
 
         İstatistikler
@@ -88,7 +88,7 @@ export default function More() {
      
      {( {open} ) => (
       <>
-       <Disclosure.Button className="h-[52px] flex items-center px-4 font-bold justify-between w-full hover:bg-[#eff3f41a]">
+       <Disclosure.Button className="h-[52px] flex items-center px-4 font-bold justify-between w-full hover:bg-[color:var(--background-secondary)]">
         Profesyonel Araçlar
 
         <svg className={classNames("transition-all h-[1.172rem]" , {"rotate-180 text-[color:var(--color-primary)]" : open})} viewBox="0 0 24 24">
@@ -97,7 +97,7 @@ export default function More() {
 
       </Disclosure.Button>
       <Disclosure.Panel >
-      <Link to="/" className="flex items-center px-3 gap-3 h-11 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors ">
+      <Link to="/" className="flex items-center px-3 gap-3 h-11 text-[15px] font-medium hover:bg-[color:var(--background-secondary)] transition-colors ">
       <svg viewBox="0 0 24 24" class="h-[1.172rem]"><path fill="currentColor" d="M1.996 5.5c0-1.38 1.119-2.5 2.5-2.5h15c1.38 0 2.5 1.12 2.5 2.5v13c0 1.38-1.12 2.5-2.5 2.5h-15c-1.381 0-2.5-1.12-2.5-2.5v-13zm2.5-.5c-.277 0-.5.22-.5.5v13c0 .28.223.5.5.5h15c.276 0 .5-.22.5-.5v-13c0-.28-.224-.5-.5-.5h-15zm8.085 5H8.996V8h7v7h-2v-3.59l-5.293 5.3-1.415-1.42L12.581 10z"></path></svg>
         Reklamlar
         </Link>
@@ -110,27 +110,27 @@ export default function More() {
     <Disclosure>
         {( {open} ) => (
             <>
-                    <Disclosure.Button className="h-[52px] flex items-center px-4 font-bold justify-between w-full hover:bg-[#eff3f41a]">
+                    <Disclosure.Button className="h-[52px] flex items-center px-4 font-bold justify-between w-full hover:bg-[color:var(--background-secondary)]">
         Ayarlar Ve Destek
 
-        <svg className={classNames("h-[1.172rem] transition-all" , {"rotate-180 text-[#1d9bf0]": open})} viewBox="0 0 24 24">
+        <svg className={classNames("h-[1.172rem] transition-all" , {"rotate-180 text-[color:var(--color-primary)]": open})} viewBox="0 0 24 24">
             <path fill="currentColor" d="M3.543 8.96l1.414-1.42L12 14.59l7.043-7.05 1.414 1.42L12 17.41 3.543 8.96z"/>
         </svg>
 
       </Disclosure.Button>
       <Disclosure.Panel >
-      <Link to="/" className="flex items-center px-3 gap-3 h-11 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors ">
+      <Link to="/" className="flex items-center px-3 gap-3 h-11 text-[15px] font-medium hover:bg-[color:var(--background-secondary)] transition-colors ">
       <svg viewBox="0 0 24 24" class="h-[1.172rem]"><path fill="currentColor" d="M10.54 1.75h2.92l1.57 2.36c.11.17.32.25.53.21l2.53-.59 2.17 2.17-.58 2.54c-.05.2.04.41.21.53l2.36 1.57v2.92l-2.36 1.57c-.17.12-.26.33-.21.53l.58 2.54-2.17 2.17-2.53-.59c-.21-.04-.42.04-.53.21l-1.57 2.36h-2.92l-1.58-2.36c-.11-.17-.32-.25-.52-.21l-2.54.59-2.17-2.17.58-2.54c.05-.2-.03-.41-.21-.53l-2.35-1.57v-2.92L4.1 8.97c.18-.12.26-.33.21-.53L3.73 5.9 5.9 3.73l2.54.59c.2.04.41-.04.52-.21l1.58-2.36zm1.07 2l-.98 1.47C10.05 6.08 9 6.5 7.99 6.27l-1.46-.34-.6.6.33 1.46c.24 1.01-.18 2.07-1.05 2.64l-1.46.98v.78l1.46.98c.87.57 1.29 1.63 1.05 2.64l-.33 1.46.6.6 1.46-.34c1.01-.23 2.06.19 2.64 1.05l.98 1.47h.78l.97-1.47c.58-.86 1.63-1.28 2.65-1.05l1.45.34.61-.6-.34-1.46c-.23-1.01.18-2.07 1.05-2.64l1.47-.98v-.78l-1.47-.98c-.87-.57-1.28-1.63-1.05-2.64l.34-1.46-.61-.6-1.45.34c-1.02.23-2.07-.19-2.65-1.05l-.97-1.47h-.78zM12 10.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5c.82 0 1.5-.67 1.5-1.5s-.68-1.5-1.5-1.5zM8.5 12c0-1.93 1.56-3.5 3.5-3.5 1.93 0 3.5 1.57 3.5 3.5s-1.57 3.5-3.5 3.5c-1.94 0-3.5-1.57-3.5-3.5z"></path></svg>        Ayarlar ve gizlilik
         </Link>
-        <Link to="/" className="flex items-center px-3 gap-3 h-11 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors ">
+        <Link to="/" className="flex items-center px-3 gap-3 h-11 text-[15px] font-medium hover:bg-[color:var(--background-secondary)] transition-colors ">
         <svg viewBox="0 0 24 24" class="h-[1.172rem]"><path fill="currentColor" d="M10.54 1.75h2.92l1.57 2.36c.11.17.32.25.53.21l2.53-.59 2.17 2.17-.58 2.54c-.05.2.04.41.21.53l2.36 1.57v2.92l-2.36 1.57c-.17.12-.26.33-.21.53l.58 2.54-2.17 2.17-2.53-.59c-.21-.04-.42.04-.53.21l-1.57 2.36h-2.92l-1.58-2.36c-.11-.17-.32-.25-.52-.21l-2.54.59-2.17-2.17.58-2.54c.05-.2-.03-.41-.21-.53l-2.35-1.57v-2.92L4.1 8.97c.18-.12.26-.33.21-.53L3.73 5.9 5.9 3.73l2.54.59c.2.04.41-.04.52-.21l1.58-2.36zm1.07 2l-.98 1.47C10.05 6.08 9 6.5 7.99 6.27l-1.46-.34-.6.6.33 1.46c.24 1.01-.18 2.07-1.05 2.64l-1.46.98v.78l1.46.98c.87.57 1.29 1.63 1.05 2.64l-.33 1.46.6.6 1.46-.34c1.01-.23 2.06.19 2.64 1.05l.98 1.47h.78l.97-1.47c.58-.86 1.63-1.28 2.65-1.05l1.45.34.61-.6-.34-1.46c-.23-1.01.18-2.07 1.05-2.64l1.47-.98v-.78l-1.47-.98c-.87-.57-1.28-1.63-1.05-2.64l.34-1.46-.61-.6-1.45.34c-1.02.23-2.07-.19-2.65-1.05l-.97-1.47h-.78zM12 10.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5c.82 0 1.5-.67 1.5-1.5s-.68-1.5-1.5-1.5zM8.5 12c0-1.93 1.56-3.5 3.5-3.5 1.93 0 3.5 1.57 3.5 3.5s-1.57 3.5-3.5 3.5c-1.94 0-3.5-1.57-3.5-3.5z"></path></svg>
         Yardım Merkezi
         </Link>
-        <button onClick={() => setModal('appearance')} className="flex w-full items-center px-3 gap-3 h-11 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors ">
+        <button onClick={() => setModal('appearance')} className="flex w-full items-center px-3 gap-3 h-11 text-[15px] font-medium hover:bg-[color:var(--background-secondary)] transition-colors ">
         <svg viewBox="0 0 24 24" class="h-[1.172rem]"><path fill="currentColor" d="M20 12h2v6.5c0 1.38-1.12 2.5-2.5 2.5h-15C3.12 21 2 19.88 2 18.5v-13C2 4.12 3.12 3 4.5 3H11v2H4.5c-.28 0-.5.22-.5.5v13c0 .28.22.5.5.5h15c.27 0 .5-.22.5-.5V12zm2.31-6.78l-6.33 7.18c-.2 2.02-1.91 3.6-3.98 3.6H8v-4c0-2.07 1.58-3.78 3.6-3.98l7.18-6.33c.99-.88 2.49-.83 3.43.1.93.94.98 2.44.1 3.43zm-1.52-2.01c-.19-.19-.49-.2-.69-.02l-6.08 5.36c.59.35 1.08.84 1.43 1.43l5.36-6.08c.18-.2.17-.5-.02-.69z"></path></svg>
         Görünüm
         </button>
-        <Link to="/" className="flex items-center px-3 gap-3 h-11 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors ">
+        <Link to="/" className="flex items-center px-3 gap-3 h-11 text-[15px] font-medium hover:bg-[color:var(--background-secondary)] transition-colors ">
         <svg viewBox="0 0 24 24" class="h-[1.172rem]"><path fill="currentColor" d="M11.999 22.25c-5.652 0-10.25-4.598-10.25-10.25S6.347 1.75 11.999 1.75 22.249 6.348 22.249 12s-4.598 10.25-10.25 10.25zm0-18.5c-4.549 0-8.25 3.701-8.25 8.25s3.701 8.25 8.25 8.25 8.25-3.701 8.25-8.25-3.701-8.25-8.25-8.25zm.445 6.992c1.747-.096 3.748-.689 3.768-.695l.575 1.916c-.077.022-1.616.48-3.288.689v.498c.287 1.227 1.687 2.866 2.214 3.405l-1.428 1.4c-.188-.191-1.518-1.576-2.286-3.144-.769 1.568-2.098 2.952-2.286 3.144l-1.428-1.4c.527-.54 1.927-2.178 2.214-3.405v-.498c-1.672-.209-3.211-.667-3.288-.689l.575-1.916c.02.006 2.021.6 3.768.695m0 0c.301.017.59.017.891 0M12 6.25c-.967 0-1.75.78-1.75 1.75s.783 1.75 1.75 1.75 1.75-.78 1.75-1.75-.784-1.75-1.75-1.75z"></path></svg>
         Klavye kısayolları
         </Link>
