@@ -16,7 +16,7 @@ export default function Menu() {
 				<NavLink key={index} to={typeof menu.path === 'function' ? menu.path() : menu.path} className="py-[0.188rem] block group">
 					{({isActive}) => (
 						<div
-							className={classNames("p-3 rounded-full  transition-colors inline-flex items-center gap-5 group-hover:bg-[color:var(--background-third)]", {
+							className={classNames("p-3 rounded-full  transition-colors inline-flex items-center gap-5 group-hover:bg-[color:var(--background-secondary)]", {
 								"font-bold": isActive
 							})}>
 							<div className="w-[1.641rem] h-[1.641rem] relative">

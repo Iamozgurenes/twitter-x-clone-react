@@ -19,17 +19,17 @@ export default function Footer() {
             <path fill="currentColor" d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"/>
            </svg>
           </Popover.Button>
-          <Popover.Panel className="w-[150px] max-[384px] bg-[color:var(--background-secondary)] rounded-xl absolute shadow-box bottom-0 right-0: grid overflow-hidden">
-                <Link to="/" className="py-3 px-4 text-white text-[15px] leading-5 font-bold hover:bg-[color:var(--background-secondary)]] transition-colors">
+          <Popover.Panel className="w-[150px] max-[384px] bg-[color:var(--background-secondary)] rounded-xl absolute shadow-box bottom-0 right-0: grid overflow-hidden ">
+                <Link to="/" className="py-3 px-4  text-[15px] leading-5 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
                     Hakkında
                 </Link>
-                <Link to="/" className="py-3 px-4 text-white text-[15px] leading-5 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
+                <Link to="/" className="py-3 px-4  text-[15px] leading-5 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
                     Durum
                 </Link>
-                <Link to="/" className="py-3 px-4 text-white text-[15px] leading-5 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
+                <Link to="/" className="py-3 px-4  text-[15px] leading-5 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
                     İşletmeler için x
                 </Link>
-                <Link to="/" className="py-3 px-4 text-white text-[15px] leading-5 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
+                <Link to="/" className="py-3 px-4  text-[15px] leading-5 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
                     Geliştiriciler
                 </Link>
           </Popover.Panel>

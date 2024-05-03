@@ -5,7 +5,7 @@ import { numberFormat } from "~/utils/formats";
 export default function Topic({item}) {
     
     return (
-        <Link to="/" className="py-6 px-4 transition-colors hover:bg-white/[0.03] relative">
+        <Link to="/" className="py-6 px-4 transition-colors hover:bg-[color:var(--background-third)] relative">
             <div className="text-[13px] text-[color:var(--color-base-secondary)] leading-4">  {item.title}  </div>
             <div className="text-[15px]  font-bold leading-5 mt-0.5">
                 {item.topic.type === 'tag' && '#'} {item.topic.value}
