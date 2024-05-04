@@ -16,8 +16,9 @@ export default function Search() {
 			ref={ref}
 			className="min-h-[2rem] h-[3.313rem] mb-3 flex items-center sticky top-0 bg-[color:var(--background-primary)] z-10"
 		>
-			<label className="h-[2.688rem] rounded-full bg-[color:var(--background-secondary)] w-full relative group border border-transparent focus-within:bg-[color:var(--background-primary)] focus-within:border-[#1d9bf0]">
-				<div className="w-[3.5rem] h-full flex items-center justify-center absolute top-0 left-0 pointer-events-none">
+			<label className="h-[2.688rem] rounded-full bg-[color:var(--background-third)] w-full relative group border border-transparent focus-within:bg-[color:var(--background-primary)] focus-within:border-[color:var(--color-primary)]">
+
+							<div className="w-[3.5rem] h-full flex items-center justify-center absolute top-0 left-0 pointer-events-none">
 					<svg
 						viewBox="0 0 24 24"
 						className="h-[1.172rem] min-w-[2rem] text-[color:var(--color-base-secondary)] group-focus-within:text-[color:var(--color-primary)]"
@@ -31,7 +32,7 @@ export default function Search() {
 				<input
 					type="text"
 					placeholder="Ara"
-					className="w-full h-full bg-transparent rounded-full outline-none pl-[3.5rem] "
+					className="w-full h-full bg-transparent rounded-full outline-none pl-[3.5rem]"
 					value={query}
 					onFocus={() => setFocus(true)}
 					onChange={e => setQuery(e.target.value)}
